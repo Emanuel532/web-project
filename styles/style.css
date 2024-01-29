@@ -1,0 +1,15 @@
+
+.navbar-brand {
+padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+/* NAV STYLE*/
