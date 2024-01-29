@@ -13,3 +13,9 @@ padding-left: 50px;
 
 
 /* NAV STYLE*/
+
+.footer {
+  background: linear-gradient(to right, #000, #939393);
+color: #fff;
+padding: 20px 0; 
+}
