@@ -1,88 +1,201 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>McDonald's: Burgers</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>McDonald`s - ABOUT our food</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/png" href="../favicon.ico">
+    <link href="../styles/style.css" rel="stylesheet">
+
     <style>
-        body {
-            margin-left: 140px;
-            margin-right: 140px;
-        }
 
-        h1 {
-            text-align: center;
-        }
-
-        .image-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 80vh;
-        }
-
-        .image-container img {
-            margin: 0 25px; 
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 35vh;
-            text-align: center;
-        }
-
-        .paragraph {
-            margin: 10px;
-            max-width: 300px;
-        }
-
-        .section-heading {
-            font-size: 24px;
-            font-weight: bold;
-        }
     </style>
-</head>
-<body>
+  </head>
+  <body class="p-0 m-0 border-0 bd-example m-0 border-0">
+<header>    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="../index.html"><img src="../images/mcdo_logo.png">McDonalds`</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 150px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Our Menu
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="our-menu/breakfast.html">Breakfast</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="our-menu/burgers.html">Burgers</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="our-menu/happy_meal.html">Happy meal</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="our-menu/fries.html">Fries</a></li>
+            </ul>
+            </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp&hl=en_US">Download App</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/rewards.html">
+                MyMcDonald's Rewards
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="deals.html">
+                  Exclusive Deals
+                  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                  About our food
+                  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="locations.html">
+                  Locations
+                  </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    <!--main page section-->
+    <!--carousel-->
 
-<h1>About our food</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="philo.png" class="d-block w-100" alt="Image 1">
+            </div>
+          <div class="carousel-item">
+            <img src="happymeal.png" class="d-block w-100" alt="Image 2">
+          </div>
+          <div class="carousel-item">
+            <img src="infood.png" class="d-block w-100" alt="Image 3">
+          </div>
 
-<p>
-    Quality food served to you every time. The food served here at McDonald's is guaranteed to be tailored to your liking. From breakfast options to your favorite chicken and fries, and even a treat for the kids! McDonald's is committed to serving the best food possible to eager customers.
-</p>
 
-<div class="image-container">
-    <img src="infood.png" alt="Image 1" height="300" width="400">
-    <img src="happymeal.png" alt="Image 2" height="300" width="400">
-    <img src="philo.png" alt="Image 3" height="300" width="400">
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!---->
+<div class="text-center">
+    <br>
+    <h1>About our food</h1>
+
+    <p>
+        Quality food served to you every time. The food served here at McDonald's is guaranteed to be tailored to your liking. From breakfast options to your favorite chicken and fries, and even a treat for the kids! McDonald's is committed to serving the best food possible to eager customers.
+    </p><br><br>
 </div>
 
-<div class="container">
-    <div>
-        <span class="section-heading">What's in your food?</span><br>
-        <p class="paragraph">
-            We know you care about the food you eat, that’s why we use quality ingredients like 100% beef patties with no preservatives, fillers, or additives. And we use a select variety of crisp, quality apples such as Gala and Pink Lady. Take a deep dive into McDonald’s ingredients to find out what makes our food delicious.
-        </p>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2>What's in your food?</h2><br>
+                    <p class="paragraph">
+                        We know you care about the food you eat, that’s why we use quality ingredients like 100% beef patties with no preservatives, fillers, or additives. And we use a select variety of crisp, quality apples such as Gala and Pink Lady. Take a deep dive into McDonald’s ingredients to find out what makes our food delicious.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2>Our Food Philosophy</h2><br>
+                    <p class="paragraph">
+                        McDonald's is passionate about its food. We take great care to ensure that everything we provide on a daily basis is safe, of high quality, offers variety, and is created responsibly. This means we utilize 100% pure beef patties seasoned with only a touch of salt and pepper. It indicates that our Egg McMuffins are cooked with freshly cracked eggs. In the United States, we make our Filet-O-Fish sandwich with whitefish derived from responsibly managed wild-caught fisheries. It implies our Buttermilk Crispy Chicken contains real buttermilk, and our Chicken McNuggets are created from white flesh chicken. Simply defined, it means we're committed to constantly developing what's important to you.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2>Meals for the kids!</h2><br>
+                    <p class="paragraph">
+                        The McDonald's Happy Meal has been enjoyed by families around the world for decades, bringing people together to share moments and create lasting memories. Just as every family around the world is different, the Happy Meal changes with them. Parents are looking for menu choices that they can feel good about feeding their kids, and that’s why we’re focused on evolving the Happy Meal and making balanced meals more accessible to families across the globe.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+      <!--footer-->
+      <footer class="footer mt-5">
+        <div class="container text-center">
+          <p>&copy; 2024 McDonald’s</p>
+          
+          <div class="row mt-3">
+            <div class="col-md-3">
+                <p>Arnold M. Gonzales</p>
+              </div>
+            <div class="col-md-3">
+              <p>Dominic Rafael R. Valencia</p>
+            </div>
+            <div class="col-md-3">
+              <p>Kael Lorenzo M. Herrera</p>
+            </div>
+            <div class="col-md-3">
+              <p>Emanuel-Constantin Ungureanu</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+<!--lightbox modal-->
+      <div class="modal fade" id="lightbox1" tabindex="-1" role="dialog" aria-labelledby="lightbox1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="images/main_page/gridview1.jpeg" class="img-fluid" alt="Centered Image">
+                </div>
+            </div>
+        </div>
     </div>
     
-    <div>
-        <span class="section-heading">Meals for the kids!</span><br>
-        <p class="paragraph">
-            The McDonald's Happy Meal has been enjoyed by families around the world for decades, bringing people together to share moments and create lasting memories. Just as every family around the world is different, the Happy Meal changes with them. Parents are looking for menu choices that they can feel good about feeding their kids, and that’s why we’re focused on evolving the Happy Meal and making balanced meals more accessible to families across the globe.
-        </p>
+    <div class="modal fade" id="lightbox2" tabindex="-1" role="dialog" aria-labelledby="lightbox2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="images/main_page/gridview2.jpeg" class="img-fluid" alt="Centered Image">
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div>
-        <span class="section-heading">Our Food Philosophy</span><br>
-        <p class="paragraph">
-            McDonald's is passionate about its food. We take great care to ensure that everything we provide on a daily basis is safe, of high quality, offers variety, and is created responsibly. This means we utilize 100% pure beef patties seasoned with only a touch of salt and pepper. It indicates that our Egg McMuffins are cooked with freshly cracked eggs. In the United States, we make our Filet-O-Fish sandwich with whitefish derived from responsibly managed wild-caught fisheries. It implies our Buttermilk Crispy Chicken contains real buttermilk, and our Chicken McNuggets are created from white flesh chicken. Simply defined, it means we're committed to constantly developing what's important to you.
-        </p>
+    <div class="modal fade" id="lightbox3" tabindex="-1" role="dialog" aria-labelledby="lightbox3Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="images/main_page/gridview3.jpeg" class="img-fluid" alt="Centered Image">
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-
-</body>
+  </body>
 </html>
-
 
 
